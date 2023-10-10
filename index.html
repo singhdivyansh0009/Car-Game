@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car game</title>
+</head>
+<body>
+    <!-- HTML PART -->
+    <div class="container">
+        <video class="vedio hide" width="100%" height="100%" controls="controls"  loop autoplay>
+            <source  src="watermarked_preview.mp4" type="video/mp4" />
+           </video>
+        <div class="score"></div>
+        <div class="startScreen">
+            CLICK TO START THE GAME<br>
+            PRESS ARROW KEY TO MOVE<br>
+            TRY NOT TO HIT THE CAR
+        </div>
+        <div class="gameArea"></div>
+    </div>
+    <audio id="backgroundAudio" src="Background.wav" loop></audio>
+    <audio id="gameOverAudio" src="GameOver.wav"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
